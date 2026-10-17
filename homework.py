@@ -1,16 +1,26 @@
-# In class, we have made a simple turtle program that draws a square.
-# The python file (draw_square.py) for this program is included in the repository for your reference.
-# So the homework is to make a triangle in python turtle module, using the functions we learned in class.
+# Homework for the lesson
+# Write a script that creates a list containing the first 100 terms (at least) of the Fibonacci sequence
+# The list should look like this:
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55… all the way to really really large numbers
+# https://www.w3schools.com/python/trypython.asp?filename=demo_compiler
 
-# TODO: edit this file to make a triangle of any colour or size you like
-# Since we use a new module called turtle, regular python compiler websites (like online-python.com) will not work.
-# Please test your script in turtle supported online python environments, like
-# "https://pythonsandbox.com/turtle"
-# or "https://trinket.io/turtle"
-# or "https://stepindev.com/en/py-playground"
+# Here is a script that gives the first 100 positive even numbers
+# You may use this as a starting template
+numbers = []
+for i in range(1, 101): # includes the first and excludes the last
+    numbers.append(i * 2)
 
 
-import turtle
+print(numbers)
+
+
+
+
+
+
+
+
+
 
 
 
